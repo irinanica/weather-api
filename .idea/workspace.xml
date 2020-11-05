@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47c45724-efb7-4cd1-b6e9-a85d9626c270" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j6ik4yQpCY9KbeKzVRYHtM69l3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/../weather-app/node_modules/typescript/lib" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../weather-app/src/assets/mist.svg" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../weather-app/src/assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47c45724-efb7-4cd1-b6e9-a85d9626c270" name="Default Changelist" comment="" />
+      <created>1603131081778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603131081778</updated>
+      <workItem from="1603131082819" duration="7895000" />
+      <workItem from="1603219941551" duration="3310000" />
+      <workItem from="1603646729221" duration="423000" />
+      <workItem from="1603828739741" duration="791000" />
+      <workItem from="1603865487744" duration="6322000" />
+      <workItem from="1603906283003" duration="7134000" />
+      <workItem from="1603993708209" duration="7852000" />
+      <workItem from="1604158858412" duration="10361000" />
+      <workItem from="1604555246273" duration="1075000" />
+    </task>
+    <task id="LOCAL-00001" summary="Minor styling updates">
+      <created>1603873046591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603873046591</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update weather service and api">
+      <created>1603908819904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603908819904</updated>
+    </task>
+    <task id="LOCAL-00003" summary="replace old select component with autocomplete component">
+      <created>1604001730993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604001730993</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updates">
+      <created>1604163075883</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604163075883</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add asset">
+      <created>1604164672115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604164672115</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactoring">
+      <created>1604168596770</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604168596770</updated>
+    </task>
+    <task id="LOCAL-00007" summary="move api keys to .env">
+      <created>1604555503836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604555503836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Minor styling updates" />
+    <MESSAGE value="Update weather service and api" />
+    <MESSAGE value="replace old select component with autocomplete component" />
+    <MESSAGE value="updates" />
+    <MESSAGE value="add asset" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="move api keys to .env" />
+    <option name="LAST_COMMIT_MESSAGE" value="move api keys to .env" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="691" y="355" width="599" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604168235244">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="691" y="355" width="599" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1604168235244" />
+    <state x="453" y="101" width="1076" height="911" key="CommitChangelistDialog2" timestamp="1604555503681">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="453" y="101" width="1076" height="911" key="CommitChangelistDialog2/72.27.1848.1053@72.27.1848.1053" timestamp="1604555503681" />
+    <state x="247" y="120" width="1478" height="879" key="DiffContextDialog" timestamp="1604168380355">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="247" y="120" width="1478" height="879" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604168380355" />
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604173634063">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1604173634063" />
+    <state x="699" y="237" width="583" height="640" key="RollbackChangesDialog" timestamp="1604168485028">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="699" y="237" width="583" height="640" key="RollbackChangesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604168485028" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1604161030366">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1604161030366" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604555508281">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1604555508281" />
+    <state x="642" y="167" width="698" height="780" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603869341980">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="642" y="167" width="698" height="780" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1603869341980" />
+    <state x="687" y="292" width="618" height="522" key="find.popup" timestamp="1604171423396">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="687" y="292" width="618" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1604171423396" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1603908538061">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1603908538061" />
+  </component>
+</project>
