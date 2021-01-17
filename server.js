@@ -22,8 +22,8 @@ app.use(cors());
 app.use('/api/', router);
 
 
-db.once('open', function () {
-	let numberOfCities = City.count();
+db.once('open', async function () {
+	let numberOfCities = await City.count();
 	
 	if (!numberOfCities) {
 		addInitialCitiesToDB();
@@ -37,19 +37,24 @@ router.get('/weather/all', (req, res) => {
 });
 
 
-router.get('/weather/:city', (req, res) => {
-	const city = req.params.city.toLowerCase();
-	axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=${weatherAppID}`)
-		.then(response => {
-			cleanCity(response.data)
-				.then(city => {
-					db.collection('cities').insert(city);
-					res.status(200).send(city);
-				});
-		})
-		.catch(response => {
-			res.status(500).send(response.message);
-		});
+router.get('/weather/:city', async (req, res) => {
+	const cityName = req.params.city;
+	const dbCity = await City.findOne({name: cityName});
+
+	if (dbCity) {
+		res.status(200).send(dbCity);
+	} else {
+		try {
+			const cityRequest = await axios.get(`${process.env.BASE_WEATHER}/weather?q=${cityName.toLowerCase()}&units=metric&APPID=${weatherAppID}`);
+			const cityData = await cleanCity(cityRequest.data)
+			const city = new City(cityData);
+			
+			await city.save();
+			res.status(200).send(city);
+		} catch (e) {
+			res.status(500).send(e.message);
+		}
+	}
 });
 
 
@@ -73,12 +78,11 @@ router.get('/cities/', (req, res) => {
 function addInitialCitiesToDB() {
 	const ids = '2643743,2988507,5128581,3117735,2950159,4219762';
 	axios
-		.get(`https://api.openweathermap.org/data/2.5/group?id=${ids}&units=metric&APPID=${weatherAppID}`)
+		.get(`${process.env.BASE_WEATHER}/group?id=${ids}&units=metric&APPID=${weatherAppID}`)
 		.then(response => {
 			let cities = [];
 			response.data.list.map(city => {
-				cities.push(cleanCity(city))
-				
+				cities.push(cleanCity(city));
 			});
 			
 			Promise.all(cities)
